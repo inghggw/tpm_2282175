@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  background: lightgray;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.box {
+  width: 80px;
+  background-color: black;
+  color: white;
+  margin: 2em;
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
