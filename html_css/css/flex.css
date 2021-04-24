@@ -2,16 +2,42 @@
   display: flex;
   background: lightgray;
   flex-wrap: wrap;
-  flex-direction: column;
+  /*flex-direction: column;*/
+  height: 500px;
+}
+
+.as-start {
+  align-self: flex-start;
+}
+
+.as-end {
+  align-self: flex-end;
+}
+
+.as-center {
+  align-self: center;
 }
 
 .box {
-  width: 80px;
   background-color: black;
+  width: 80px;
   color: white;
   margin: 2em;
   padding: 1em;
   text-align: center;
   font-weight: bold;
   font-style: italic;
+  line-height: 60px;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
+
+.fg-2 {
+  flex-grow: 2;
+}
+
+.fg-3 {
+  flex-grow: 3;
 }
